@@ -5,7 +5,7 @@
 # Eclipse specific
 .classpath
 .cache
-#.project
+.project
 #.settings
 
 # Scala-IDE specific
