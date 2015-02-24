@@ -1,22 +1,47 @@
-#*.class
-#*.log
+### Scala ###
+*.class
+*.log
 
 # Eclipse specific
 .classpath
+.cache
 #.project
-#.cache
+#.settings
 
 # Scala-IDE specific
+.worksheet/
 #.scala_dependencies
+#build
+#org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+#org.scala-ide.sdt.update-site/site.xml
 
 # IDEA specific
 .idea/
 .idea_modules
+#*.iml
+#*.ipr
+#*.iws
+#out
 
 # sbt specific
+bin/
 target/
 #dist/*
 #lib_managed/
 #src_managed/
 #project/boot/
 #project/plugins/project/
+#.cache/
+#.history/
+#.lib/
+#dist/*
+#target/
+#lib_managed/
+#src_managed/
+#project/boot/
+
+#For Vim:
+#tags
+#.*.swp
+#.*.swo
+
